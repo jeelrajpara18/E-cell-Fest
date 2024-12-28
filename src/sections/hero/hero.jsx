@@ -35,7 +35,7 @@ function Hero() {
           </div>
           <div className="lg:flex gap-2 md:block">
             <p className="font-semibold">Venue :</p>
-            <p className="font-normal">Aryabhatt Hall & Ignite Auditorium</p>
+            <p className="font-normal">Aryabhatt Hall & CV Raman Hall</p>
           </div>
         </div>
         <div className="mt-3">
