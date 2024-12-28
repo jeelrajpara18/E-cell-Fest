@@ -22,7 +22,7 @@ function Hero() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="mx-auto text-center py-24 sm:py-48 lg:py-56"
+        className="mx-auto text-center py-40 sm:py-48 lg:py-56"
       >
         <div className=" font-semibold tracking-tight text-2xl lg:text-5xl">
           <h1 className="">E-Cell Fest 2024</h1>
