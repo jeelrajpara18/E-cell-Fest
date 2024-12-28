@@ -47,8 +47,8 @@ const Footer = () => {
         </div>
 
         {/* Subscribe Section */}
-        <div className="text-center md:text-left">
-          <h3 className="text-orange-500 font-bold text-lg text-center">Register Now!</h3>
+        <div className="text-center md:text-left space-x-2">
+          <h3 className="text-orange-500 font-bold text-lg">Register Now!</h3>
           <div className='mt-4'><img src={qr} alt=''/></div>
         </div>
       </div>
