@@ -1,0 +1,94 @@
+/* Spacer section */
+.spacer {
+    height: 100vh;
+  }
+  
+  /* Card Stacking Section */
+  .cardStacking {
+    overflow: hidden;
+    padding: 60px 0;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+  }
+  
+  /* Card Stack Wrapper */
+  .cardStacking__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Space between cards */
+  }
+  
+  /* Individual Card */
+  .stackCard {
+    border-radius: 30px;
+    background-color: bisque;
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    padding: 60px 35px;
+    transform-origin: 50% -160%;
+    /* max-width: 350px; Limit the card width */
+    margin: 0 auto; /* Center the cards */
+  }
+  
+  /* Card Body */
+  .stackCard__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Card Header */
+  .stackCard__body-content-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Make the card take full width on smaller screens */
+    .stackCard {
+      width: 90%;
+      padding: 30px 20px;
+      max-width: 350px;
+    }
+  
+    /* Adjust the card header font size */
+    .stackCard__body-content-header {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 1025px) {
+    /* Make the card take full width on smaller screens */
+    .stackCard {
+      width: 80%;
+      padding: 30px 20px;
+      /* max-width: 350px; */
+    }
+  
+    /* Adjust the card header font size */
+    .stackCard__body-content-header {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* For very small screens, reduce card padding and make it full width */
+    .stackCard {
+      width: 80%;
+      padding: 20px 15px;
+    }
+  
+    /* Adjust card header font size further */
+    .stackCard__body-content-header {
+      font-size: 14px;
+    }
+  }
+  
